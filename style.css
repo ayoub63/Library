@@ -1,0 +1,36 @@
+body {
+  font-family: "Sofia", sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  background-color: lightseagreen;
+  height: 100%;
+}
+
+.top {
+  font-size: 50px;
+}
+
+.center-container {
+  height: 80%;
+}
+
+.book-card {
+  display: flex;
+  flex-direction: column;
+  font-family: "Courier New", Courier, monospace;
+  border: 1px solid black;
+  padding: 10px;
+  height: 300px;
+  width: 200px;
+  margin: 10px;
+  font-size: 20px;
+  color: black;
+}
+
+#book-container {
+  display: grid;
+  height: max-content;
+  grid-template-columns: 1fr 1fr 1fr;
+}
